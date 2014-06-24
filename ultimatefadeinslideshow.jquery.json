@@ -3,7 +3,7 @@
   "title": "Ultimate Fade In Slideshow",
   "description": "This is a robust, cross browser fade in slideshow script that supports manual or automatic modes, responsive dimensions, swipe to navigate, slide descriptions, and more.",
   "keywords": ["gallery", "images", "slideshow", "responsive"],
-  "version": "1.2.6",
+  "version": "2.6.0",
   "author": {
     "name": "Dynamic Drive",
     "email" : "ddrivehelp@gmail.com",

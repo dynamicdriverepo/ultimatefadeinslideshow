@@ -1,0 +1,25 @@
+{
+  "name": "ultimatefadeinslideshow",
+  "title": "Ultimate Fade In Slideshow",
+  "description": "This is a robust, cross browser fade in slideshow script that supports manual or automatic modes, responsive dimensions, swipe to navigate, slide descriptions, and more.",
+  "keywords": ["gallery", "images", "slideshow", "responsive"],
+  "version": "1.2.6",
+  "author": {
+    "name": "Dynamic Drive",
+    "email" : "ddrivehelp@gmail.com",
+		"url": "http://www.dynamicdrive.com"
+  },
+  "licenses": [
+    {
+      "type": "Freeware",
+      "url": "http://www.dynamicdrive.com/notice.htm"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.4"
+  },
+  "homepage": "http://www.dynamicdrive.com/dynamicindex14/fadeinslideshow.htm",
+  "docs": "http://www.dynamicdrive.com/dynamicindex14/fadeinslideshow.htm",
+  "demo": "http://www.dynamicdrive.com/dynamicindex14/fadeinslideshow.htm",
+  "download": "http://www.dynamicdrive.com/dynamicindex14/fadeinslideshow.htm"
+}

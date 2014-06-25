@@ -6,8 +6,8 @@
 
 //Oct 6th, 09' (v2.1): Adds option to randomize display order of images, via new option displaymode.randomize
 //May 24th, 10' (v2.4): Adds new "peakaboo" option to "descreveal" setting. oninit and onslide event handlers added.
-//June 22nd, 14' (v2.6): 1) Slideshow now responsive, supporting percentage values in the dimensions[w, h] option.
-//											 2) Swipe to navigate added on both desktop and mobile devices. 
+//June 22nd, 14' (v2.6): 1) Slideshow now responsive, supporting percentage values in the dimensions[w, h] option. 2) Swipe to navigate added on both desktop and mobile devices. 
+//June 22nd, 14' (v2.6.1): Enabled vertical swiping inside slideshow to scroll page 
 
 var fadeSlideShow_descpanel={
 	controls: [['x.png', 8, 8], ['restore.png', 14, 15.5], ['loading.gif', 54, 55]], //full URL and dimensions of close, restore, and loading images
@@ -91,6 +91,7 @@ function fadeSlideShow(settingarg){
 				triggerOnTouchEnd : true,
 				triggerOnTouchLeave : true,
 				threshold: 75,
+				allowPageScroll: 'vertical',
 				excludedElements:[]
 			}
 
